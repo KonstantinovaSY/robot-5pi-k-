@@ -1,0 +1,32 @@
+#               elif buffer[0] == 0xfd:
+#                       go.forward()
+#                       n1 = bin(buffer[1])[2:]
+#                       n2 = bin(buffer[2])[2:]
+#                       my_time = int(n1 + '0' * (8 - len(n2)) + n2, 2)
+#                       time.sleep(my_time/1000)
+#                       cfg.LIGHT_STATUS = cfg.STOP
+#                       go.stop()
+#               elif buffer[0] == 0xf4:
+#                       go.back()
+#                       n1 = bin(buffer[1])[2:]
+#                       n2 = bin(buffer[2])[2:]
+#                       my_time = int(n1 + '0' * (8 - len(n2)) + n2, 2)
+#                       time.sleep(my_time/1000)
+#                       cfg.LIGHT_STATUS = cfg.STOP
+#                       go.stop()
+#               elif buffer[0] == 0xf5:
+#                       go.left()
+#                       n1 = bin(buffer[1])[2:]
+#                       n2 = bin(buffer[2])[2:]
+#                       my_time = int(n1 + '0' * (8 - len(n2)) + n2, 2)
+#                       time.sleep(my_time/1000)
+#                       cfg.LIGHT_STATUS = cfg.STOP
+#                       go.stop()
+#               elif buffer[0] == 0xf6:
+#                       go.right()
+#                       n1 = bin(buffer[1])[2:]
+#                       n2 = bin(buffer[2])[2:]
+#                       my_time = int(n1 + '0' * (8 - len(n2)) + n2, 2)
+#                       time.sleep(my_time/1000)
+#                       cfg.LIGHT_STATUS = cfg.STOP
+#                       go.stop()
